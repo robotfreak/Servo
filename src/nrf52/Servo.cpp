@@ -16,7 +16,7 @@
   Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA
 */
 
-#if defined(ARDUINO_ARCH_NRF52)
+#if defined(ARDUINO_ARCH_NRF52 || ARDUINO_ARCH_NRF5)
 
 #include <Arduino.h>
 #include <Servo.h>
