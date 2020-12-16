@@ -67,7 +67,7 @@
 #include "samd/ServoTimers.h"
 #elif defined(ARDUINO_ARCH_STM32F4)
 #include "stm32f4/ServoTimers.h"
-#elif defined(ARDUINO_ARCH_NRF52)
+#elif defined(ARDUINO_ARCH_NRF52 || ARDUINO_ARCH_NRF5)
 #include "nrf52/ServoTimers.h"
 #elif defined(ARDUINO_ARCH_MEGAAVR)
 #include "megaavr/ServoTimers.h"
